@@ -40,13 +40,17 @@ public class ColorScheme
 	/* The orange color used for the branding's accents, with lowered opacity */
 	@DoNotRename public static final Color BRAND_ORANGE_TRANSPARENT = new Color(255, 206, 9, 120);
 
-	@DoNotRename public static final Color DARKER_GRAY_COLOR = new Color(30, 30, 30);
-	@DoNotRename public static final Color DARK_GRAY_COLOR = new Color(40, 40, 40);
+	//@DoNotRename public static final Color DARKER_GRAY_COLOR = new Color(30, 30, 30);
+	//@DoNotRename public static final Color DARK_GRAY_COLOR = new Color(40, 40, 40);
+	@DoNotRename public static final Color DARKER_GRAY_COLOR = new Color(41, 31, 51);
+	@DoNotRename public static final Color DARK_GRAY_COLOR = new Color(41, 31, 51);
 	@DoNotRename public static final Color MEDIUM_GRAY_COLOR = new Color(77, 77, 77);
 	@DoNotRename public static final Color LIGHT_GRAY_COLOR = new Color(165, 165, 165);
 
-	@DoNotRename public static final Color DARKER_GRAY_HOVER_COLOR = new Color(60, 60, 60);
-	@DoNotRename public static final Color DARK_GRAY_HOVER_COLOR = new Color(35, 35, 35);
+	//@DoNotRename public static final Color DARKER_GRAY_HOVER_COLOR = new Color(60, 60, 60);
+	//@DoNotRename public static final Color DARK_GRAY_HOVER_COLOR = new Color(35, 35, 35);
+	@DoNotRename public static final Color DARKER_GRAY_HOVER_COLOR = new Color(62, 47, 77);
+	@DoNotRename public static final Color DARK_GRAY_HOVER_COLOR = new Color(62, 47, 77);
 
 	/* The color for the green progress bar (used in ge offers, farming tracker, etc)*/
 	@DoNotRename public static final Color PROGRESS_COMPLETE_COLOR = new Color(55, 240, 70);

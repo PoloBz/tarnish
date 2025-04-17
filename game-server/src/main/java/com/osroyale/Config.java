@@ -197,6 +197,9 @@ public final class Config {
     /** The default, i.e. onSpawn, location. */
     public static final Position DEFAULT_POSITION = new Position(3087, 3497, 0);
 
+    /** Test Area Astral Forest */
+    public static final Position ASTRAL_FOREST = new Position(1789, 2590, 0);
+
     /** The donator zone. */
     public static final Position SUPER_DONATOR_ZONE = new Position(2426, 10419, 0);
     public static final Position REGULAR_DONATOR_ZONE = new Position(2478, 10435, 0);

@@ -787,6 +787,98 @@ public final class ItemDefinition implements RSItemComposition {
                 itemDef.itemActions = new String[5];
                 itemDef.itemActions[0] = "Unpack";
                 break;
+            case 28600:
+                itemDef.inventoryModel = (52903);
+                itemDef.name = "Starlight Boots";
+                itemDef.itemActions = new String[5];
+                itemDef.itemActions[1] = "Wear";
+                itemDef.itemActions[4] = "Drop";
+                itemDef.modelZoom = 1000;
+                itemDef.modelOffset1 = 5;
+                itemDef.modelOffset2 = 10;
+                itemDef.maleWield = (52892);
+                itemDef.femaleWield = (52892);
+                break;
+            case 28602:
+                itemDef.inventoryModel = (52902);
+                itemDef.name = "Starlight Cape";
+                itemDef.itemActions = new String[5];
+                itemDef.itemActions[1] = "Wear";
+                itemDef.itemActions[4] = "Drop";
+                itemDef.modelZoom = 1000;
+                itemDef.maleWield = (52893);
+                itemDef.femaleWield = (52893);
+                break;
+            case 28604:
+                itemDef.inventoryModel = (52901);
+                itemDef.name = "Starlight Gloves";
+                itemDef.itemActions = new String[5];
+                itemDef.itemActions[1] = "Wear";
+                itemDef.itemActions[4] = "Drop";
+                itemDef.modelZoom = 1000;
+                //itemDef.xan2d = 200;
+                itemDef.modelOffset1 = 5;
+                itemDef.modelOffset2 = 8;
+                itemDef.maleWield = (52894);
+                itemDef.femaleWield = (52894);
+                break;
+            case 28606:
+                itemDef.inventoryModel = (52900);
+                itemDef.name = "Starlight Hood";
+                itemDef.itemActions = new String[5];
+                itemDef.itemActions[1] = "Wear";
+                itemDef.itemActions[4] = "Drop";
+                itemDef.modelOffset1 = 5;
+                itemDef.modelOffset2 = 3;
+                itemDef.modelZoom = 1000;
+                itemDef.maleWield = (52895);
+                itemDef.femaleWield = (52895);
+                break;
+            case 28608:
+                itemDef.inventoryModel = (52899);
+                itemDef.name = "Starlight Legs";
+                itemDef.itemActions = new String[5];
+                itemDef.itemActions[1] = "Wear";
+                itemDef.itemActions[4] = "Drop";
+                itemDef.modelOffset1 = 3;
+                itemDef.modelZoom = 1500;
+                itemDef.maleWield = (52896);
+                itemDef.femaleWield = (52896);
+                break;
+            case 28610:
+                itemDef.inventoryModel = (52898);
+                itemDef.name = "Starlight Top";
+                itemDef.itemActions = new String[5];
+                itemDef.itemActions[1] = "Wear";
+                itemDef.itemActions[4] = "Drop";
+                itemDef.modelOffset1 = 3;
+                itemDef.modelZoom = 1300;
+                itemDef.maleWield = (52897);
+                itemDef.femaleWield = (52897);
+                break;
+           // itemDef.recolorTo = new short[]{10411, 14532, 12492, (short) 50000, (short)50000, (short) 50000};
+            case 28612:
+                itemDef.name = "Prayer master cape";
+                itemDef.inventoryModel = (52960);
+                //itemDef.description = "	A cape worn by those who've overachieved.";
+                // 4 //7 //10 //13 //14//16//18//22 //24//39
+                //itemDef.recolorTo = new short[] { 9143, 9168, 119, 119, 117, 115, 113, 119, 110, };
+                //itemDef.recolorFrom = new short[] {(short)48811, (short)57022, 1029, 1032, 12, 16, 20, 11, 14, 37};
+                itemDef.recolorFrom = new short[] { (short)57022, (short)48811, 2, 1029, 1032, 11, 12, 14, 16, 20, 22, 2 };
+                itemDef.recolorTo = new short[] { 9163, 9168, 117, 120, 123, 126, 127, 127, 127, 127, 127, 127 };
+                //itemDef.modelId = 50060;
+                itemDef.maleWield = (52961);
+                itemDef.femaleWield = (52961);
+                itemDef.modelZoom = 2400;
+                itemDef.modelRotationX = 1030;
+                itemDef.modelRotationY = 660;
+                itemDef.modelOffset1 = 0;
+                itemDef.modelOffset2 = 0;
+                itemDef.itemActions = new String[5];
+                itemDef.itemActions[1] = "Wear";
+                itemDef.itemActions[4] = "Drop";
+                //itemDef.maleOffset = 5;
+                break;
         }
 
         if (itemDef.certTemplateID != -1)

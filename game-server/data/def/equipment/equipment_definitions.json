@@ -56253,6 +56253,33 @@
     ]
   },
   {
+    "id": 28481,
+    "type": "BOOTS",
+    "name": "Starlight Boots",
+    "requirements": [
+      {
+        "level": 1,
+        "skill": 1
+      }
+    ],
+    "bonuses": [
+      0,
+      0,
+      0,
+      -5,
+      -3,
+      17,
+      18,
+      19,
+      0,
+      15,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
     "id": 11836,
     "type": "BOOTS",
     "name": "Bandos boots",

@@ -21397,6 +21397,7 @@ public class Items {
     public static final int BRUTAL_BLACK_DRAGON = 21391;
     public static final int EXPERT_MINING_GLOVES = 21392;
     public static final int NULL_7797 = 21393;
+    public static final int STARLIGHT_BOOTS = 28481;
 
 }
 

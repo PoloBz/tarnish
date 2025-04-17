@@ -288,6 +288,18 @@ public class PlayerCommandPlugin extends CommandExtension {
             }
         });
 
+        commands.add(new Command("af") {
+            @Override
+            public void execute(Player player, CommandParser parser) {
+                if (player.getCombat().isUnderAttackByPlayer()) {
+                    player.message("You can not teleport whilst in combat!");
+                    return;
+                }
+
+                Teleportation.teleport(player, Config.ASTRAL_FOREST);
+            }
+        });
+
         commands.add(new Command("kdr") {
             @Override
             public void execute(Player player, CommandParser parser) {

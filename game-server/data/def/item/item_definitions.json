@@ -145783,5 +145783,50 @@
     "name": "Esoteric emblem (tier 2)",
     "destroyable": true,
     "base-value": 501
-  }
+  },
+  /*{
+  "id": 28101,
+  "name": "Starlight Cloak",
+  "stackable": true,
+  "unnoted-id": 36001,
+  "base-value": 2,
+  "street-value": 563321,
+  "equipment-slot": "CAPE"
+  },
+  {
+  "id": 36002,
+  "name": "Starlight Gloves",
+  "stackable": true,
+  "unnoted-id": 36002,
+  "base-value": 2,
+  "street-value": 563321,
+  "equipment-slot": "GLOVES"
+  },
+  {
+  "id": 36003,
+  "name": "Starlight Hood",
+  "stackable": true,
+  "unnoted-id": 36003,
+  "base-value": 2,
+  "street-value": 563321,
+  "equipment-slot": "FACE"
+  },
+  {
+  "id": 36004,
+  "name": "Starlight Legs",
+  "stackable": true,
+  "unnoted-id": 36004,
+  "base-value": 2,
+  "street-value": 563321,
+  "equipment-slot": "LEGS"
+  },
+  {
+  "id": 36005,
+  "name": "Starlight Top",
+  "stackable": true,
+  "unnoted-id": 36005,
+  "base-value": 2,
+  "street-value": 563321,
+  "equipment-slot": "BODY"
+  }*/
 ]
