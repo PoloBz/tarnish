@@ -386,7 +386,7 @@ public final class Npc extends Entity implements RSNPC {
 
     @Override
     public int getLogicalHeight() {
-        return 0;
+        return height;
     }
 
     @Override

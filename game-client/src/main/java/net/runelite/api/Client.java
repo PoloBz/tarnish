@@ -2421,5 +2421,4 @@ public interface Client extends GameEngine
 	 * @param value the new value
 	 */
 	void setVarcStrValue(@VarCStr int var, String value);
-
 }

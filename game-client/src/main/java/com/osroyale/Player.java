@@ -636,7 +636,7 @@ public final class Player extends Entity implements RSPlayer {
     @Nullable
     @Override
     public String getName() {
-        return null;
+        return name;
     }
 
     @Override
@@ -711,7 +711,7 @@ public final class Player extends Entity implements RSPlayer {
     @Nullable
     @Override
     public Point getCanvasTextLocation(Graphics2D graphics, String text, int zOffset) {
-        return null;
+        return Perspective.getCanvasTextLocation(Client.instance, (Graphics2D) Client.instance.getGameComponent().getGraphics(), getLocalLocation(), text, zOffset);
     }
 
     @Override
@@ -888,7 +888,7 @@ public final class Player extends Entity implements RSPlayer {
 
     @Override
     public int getLogicalHeight() {
-        return 0;
+        return height;
     }
 
     @Override
